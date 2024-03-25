@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.containerdiv {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* background-color: black; */
+}
+.projectsBox {
+  height: auto;
+  width: 300px;
+  margin-top: 5px;
+  box-shadow: inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px,
+    inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px,
+    inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
+  transition: 0.5s ease-in-out;
+}
+
+.projectsBox:hover {
+  box-shadow: 2px 1px 100px #fff;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 2px 2px;
+  height: auto;
+  /* width: 400px; */
+}
+
+.projectsBox img {
+  height: 200px;
+  width: 100%;
+  border-radius: 0;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.buttons {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.optionbtns {
+  height: 40px;
+  width: auto;
+  padding: 10px 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: #fff;
+  background: transparent;
+  transition-duration: 0.8s;
+}
+
+.optionbtns a {
+  color: #fff;
+}
+
+.optionbtns a:hover {
+  background-color: transparent;
+  box-shadow: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.projectsBox h4 {
+  text-align: center;
+  height: auto;
+  overflow-wrap: break-word;
+}
+
+.projectsBox p {
+  text-align: center;
+  height: auto;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 1440px) {
+  .containerdiv {
+    justify-content: center;
+  }
+}
+
+#h3 {
+  text-decoration: underline;
+  text-align: center;
+  color: #fff;
+  margin: 20px 0 20px 0;
+}
