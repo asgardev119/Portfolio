@@ -45,8 +45,8 @@ export const Home = () => {
           videos. I can speak Hindi, English.
         </p>
         <a
-          href="/pdf/myRes.pdf"
-          download="myResume"
+          href="/pdf/asgaransari-Resume.pdf"
+          download="asgaransari-Resume"
           target="_blank"
           rel="noreferrer"
         >
