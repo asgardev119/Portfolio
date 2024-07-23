@@ -11,9 +11,6 @@ export const Home = () => {
       <ParticlesBg />
       <div className="dev"></div>
       <div className="name">
-        {/* <h2>
-          Hello It's <span>me 🙋..</span>
-        </h2> */}
         <h1 id="titleHead">
           Hello everyone, I am
           <span>
@@ -21,9 +18,9 @@ export const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  "A Reactjs developer",
-                  "A Frontend developer",
-                  "A Software developer",
+                  "a ReactJs  Developer",
+                  "a Frontend Developer",
+                  "a Software Developer",
                 ],
                 autoStart: true,
                 loop: true,
@@ -45,12 +42,12 @@ export const Home = () => {
           videos. I can speak Hindi, English.
         </p>
         <a
-          href="/pdf/asgaransari-Resume.pdf"
+          href="/pdf/AsgarAnsari-ReactJs Developer.pdf"
           download="asgaransari-Resume"
           target="_blank"
           rel="noreferrer"
         >
-          <button>Hire Me</button>
+          <button>Hire me</button>
         </a>
       </div>
     </div>
