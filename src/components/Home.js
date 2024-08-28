@@ -12,7 +12,7 @@ export const Home = () => {
       <div className="dev"></div>
       <div className="name">
         <h1 id="titleHead">
-          Hello everyone, I am
+          Hello Everyone, I'm
           <span>
             {" "}
             <Typewriter
@@ -31,18 +31,19 @@ export const Home = () => {
         <p id="text">
           <b id="p">
             {" "}
-            I aim to launch my career as a proficient MERN stack developer,
-            specializing in both frontend and backend intricacies. I'm dedicated
-            to refining my skills to contribute effectively to the design,
-            planning, and development phases of complex applications.{" "}
+            Frontend developer proficient in JavaScript, TypeScript, HTML, CSS,
+            Tailwind CSS, React Js, and Material-UI with additional skills in C,
+            C++, SQL, Data structures & Algorithm. Currently pursuing B.Tech in
+            Computer Science and Engineering, actively seeking opportunities in
+            frontend development.
           </b>
-          I am passionate about new technologies and always wish to know more
+          {/* I am passionate about new technologies and always wish to know more
           about them. I have a keen interest in modern web technologies and I
           learn them by reading books & documentation and watching YouTube
-          videos. I can speak Hindi, English.
+          videos. I can speak Hindi, English. */}
         </p>
         <a
-          href="/pdf/AsgarAnsari-ReactJs Developer.pdf"
+          href="/pdf/AsgarAnsari-ReactJs frontend Developer.pdf"
           download="asgaransari-Resume"
           target="_blank"
           rel="noreferrer"

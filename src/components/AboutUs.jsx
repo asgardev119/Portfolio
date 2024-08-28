@@ -47,8 +47,8 @@ export const Aboutus = () => {
         <p>
           Hey there! I'm <b> Asgar Ansari </b>, A student pursuing Bachelor of
           Technology in Computer Science and Engineering at{" "}
-          <b>IES University</b>, Bhopal. I'm currently in my 6th semester, and
-          in the last semester, I achieved an SGPA of <b>8.45</b>&nbsp; My goal
+          <b>IES University</b>, Bhopal. I'm currently in my 7th semester, and
+          in the last semester, I achieved an SGPA of <b>8.56</b>&nbsp; My goal
           is to launch my career as a MERN stack developer, focusing on both
           frontend and backend skills. I'm determined to improve my abilities in
           designing, planning, and building complex applications. I'm passionate

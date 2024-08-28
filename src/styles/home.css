@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+
 }
 
 .headbox {
@@ -56,18 +57,12 @@
   height: 250px;
   width: 250px;
   margin-left: 40px;
-  float: left;
   background-image: url("/public/images/asgar.png");
   background-size: cover;
   filter: drop-shadow(0 0 0.75rem rgb(233, 238, 239));
   border-radius: 50%;
-  /* animation: rotate 10s infinite; */
 }
-@keyframes rotate {
-  100% {
-    rotate: 360deg;
-  }
-}
+
 
 .name a button {
   height: 40px;
@@ -100,9 +95,7 @@ h1 span {
 }
 
 @media (max-width: 768px) {
-  .maincont {
-    flex-wrap: wrap;
-  }
+ 
   .name {
     width: 90%;
     height: auto;
@@ -137,5 +130,9 @@ h1 span {
   .maincont {
     flex-wrap: wrap;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
@@ -8,6 +8,24 @@ import { isPathActive } from "../utils/util";
 export const Header = () => {
   const [activePath, setActivePath] = useState(window.location.hash || "");
   const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
@@ -19,13 +37,13 @@ export const Header = () => {
   };
 
   return (
-    <div className="root">
+    <div className={`root ${isScrolled ? "scrolled" : "root"}`}>
       <input type="checkbox" name="checkbox" id="check" checked={isNavOpen} />
+
+      <label className="logo">𝝞𝝖SᏵ𝝖Ɍ</label>
       <label for="check" className="checkBtn" onClick={toggleNav}>
         <FontAwesomeIcon icon={isNavOpen ? faXmark : faBars} size="xl" />
       </label>
-
-      <label className="logo">𝝞𝝖SᏵ𝝖Ɍ</label>
 
       <ul className={isNavOpen ? "open" : ""}>
         {navMenus.map(({ text, link }) => {
