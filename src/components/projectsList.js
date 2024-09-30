@@ -7,6 +7,13 @@ export const projectList = [
     liveLink: "https://github.com/asgardev119/food-web",
   },
   {
+    para: "ansariAi",
+    image: "/images/ansariai.png",
+    tech: "React Js & tailwind css",
+    githublink: "https://ansari-ai.vercel.app/",
+    liveLink: "https://ansari-ai.vercel.app/",
+  },
+  {
     para: "Crud-Web",
     image: "/images/crud.png",
     tech: "ReactJs, Typescript , JavaScript",
@@ -101,5 +108,4 @@ export const projectList = [
     githublink: "https://github.com/asgaransari19/OIBSIP_level1_task3",
     liveLink: "https://tempconverterasgr.netlify.app/",
   },
- 
 ];
