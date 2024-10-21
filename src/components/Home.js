@@ -37,13 +37,9 @@ export const Home = () => {
             Computer Science and Engineering, actively seeking opportunities in
             frontend development.
           </b>
-          {/* I am passionate about new technologies and always wish to know more
-          about them. I have a keen interest in modern web technologies and I
-          learn them by reading books & documentation and watching YouTube
-          videos. I can speak Hindi, English. */}
         </p>
         <a
-          href="/pdf/AsgarAnsari-ReactJs frontend Developer.pdf"
+          href="/pdf/AsgarAnsari.pdf"
           download="asgaransari-Resume"
           target="_blank"
           rel="noreferrer"

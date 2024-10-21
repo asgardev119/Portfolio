@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
 import { navMenus } from "../utils/navMenus";
 import { isPathActive } from "../utils/util";
+import { Link, NavLink } from "react-router-dom";
 
 export const Header = () => {
   const [activePath, setActivePath] = useState(window.location.hash || "");
@@ -41,6 +42,7 @@ export const Header = () => {
       <input type="checkbox" name="checkbox" id="check" checked={isNavOpen} />
 
       <label className="logo">𝝞𝝖SᏵ𝝖Ɍ</label>
+
       <label for="check" className="checkBtn" onClick={toggleNav}>
         <FontAwesomeIcon icon={isNavOpen ? faXmark : faBars} size="xl" />
       </label>

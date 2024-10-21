@@ -13,7 +13,7 @@ export const Teams = () => {
       role: "front-End developer",
       dp: "/images/asgar.png",
       linkdn: "https://www.linkedin.com/in/asgar-ansari-30a43b216/",
-      dec: " I am a front-end-developer. and I want to start my MERN stack developer career with a focus on frontend and backend skills. ",
+      dec: " Currently pursuing B.Tech in Computer Science and Engineering, actively seeking opportunities in frontend development.",
     },
 
     {
@@ -39,13 +39,7 @@ export const Teams = () => {
       linkdn: "https://www.linkedin.com/in/jahangeer-ansari/",
       dec: " I have developed a deep understanding of the intricacies of designing, developing, multiple web-based applications.",
     },
-    {
-      name: "--------------",
-      role: "--- developer",
-      dp: "",
-      linkdn: "#",
-      dec: "to be contniue... ",
-    },
+    
   ];
 
   useEffect(() => {

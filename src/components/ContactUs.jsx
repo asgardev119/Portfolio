@@ -31,9 +31,8 @@ export const ContactUs = () => {
 
   return (
     <div className="data" id={pageIds.contactUs}>
+      <h1>contact Us</h1>
       <form ref={form} onSubmit={sendEmail}>
-      <h2>contactUs</h2>
-
         <label>Name</label>
         <input type="text" name="from_name" autoComplete="off" />
         <label>Email</label>

@@ -16,7 +16,7 @@ const Main = () => {
       <Aboutus />
       <Skills />
       <Projects />
-      {/* <Teams /> */}
+      <Teams />
       <ContactUs />
     </Layout>
   );

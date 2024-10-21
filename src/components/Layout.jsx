@@ -6,9 +6,9 @@ export const Layout = ({ children }) => {
     <>
       <Header />
       {children}
-      <footer>
+      {/* <footer>
         <p style={{ textAlign: "center" }}> All rights reserved. @Asgar</p>
-      </footer>
+      </footer> */}
     </>
   );
 };

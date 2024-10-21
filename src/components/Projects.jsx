@@ -7,7 +7,7 @@ export const Projects = () => {
   
   return (
     <>
-      <h3 id="h3">Projects</h3>
+      <h1 id="h1">Projects</h1>
       <div className="containerdiv" id={pageIds.projects}>
         {projectList.map((obj) => {
           return (

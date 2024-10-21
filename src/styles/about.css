@@ -13,14 +13,11 @@
 .about h1 {
   color: #fff;
   text-align: center;
-  text-decoration: underline;
+  width: 100%;
+  border-bottom: 1px solid white;
+  font-size: 40px;
 }
-.about h1 span {
-  margin: auto;
-  color: yellow;
-  font-size: 35px;
-  text-align: center;
-}
+
 .imgbox {
   height: 300px;
   width: 350px;

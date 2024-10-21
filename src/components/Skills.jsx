@@ -12,7 +12,7 @@ export const Skills = () => {
       status: "active",
       trailColor: "red",
       strokeColor: "yellow",
-      name: "HTML",
+      name: "HTML5",
     },
 
     {
@@ -20,7 +20,7 @@ export const Skills = () => {
       status: "active",
       trailColor: "red",
       strokeColor: "yellow",
-      name: "CSS",
+      name: "CSS3",
     },
 
     {
@@ -39,7 +39,7 @@ export const Skills = () => {
     },
 
     {
-      percent: 70,
+      percent: 80,
       status: "active",
       trailColor: "red",
       strokeColor: "yellow",
@@ -54,20 +54,13 @@ export const Skills = () => {
       name: "Core Java",
     },
 
-    {
-      percent: 60,
-      status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
-      name: "C",
-    },
 
     {
       percent: 70,
       status: "active",
       trailColor: "red",
       strokeColor: "yellow",
-      name: "C++",
+      name: "C & C++",
     },
     {
       percent: 60,
@@ -75,6 +68,13 @@ export const Skills = () => {
       trailColor: "red",
       strokeColor: "yellow",
       name: "MSword",
+    },
+    {
+      percent: 60,
+      status: "active",
+      trailColor: "red",
+      strokeColor: "yellow",
+      name: "MySql",
     },
     {
       percent: 60,

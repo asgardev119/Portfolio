@@ -46,7 +46,9 @@ ul {
 .container h1 {
   color: #fff;
   text-align: center;
-  text-decoration: underline;
+  
+  width: 100%;
+  border-bottom: 1px solid white;
   margin-top: 20px;
   font-size: 40px;
 }

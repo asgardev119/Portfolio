@@ -40,7 +40,7 @@ export const Aboutus = () => {
   return (
     <div className="about" id={pageIds.about}>
       <h1>
-        About<span>us</span>
+        About Us
       </h1>
       <div className="imgbox"></div>
       <div className="textbox">

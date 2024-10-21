@@ -18,10 +18,10 @@ export const navMenus = [
     link: `#${pageIds.projects}`,
   },
 
-  // {
-  //   text: "Teams",
-  //   link: `#${pageIds.teams}`,
-  // },
+  {
+    text: "Teams",
+    link: `#${pageIds.teams}`,
+  },
   {
     text: "contactUs",
     link: `#${pageIds.contactUs}`,
