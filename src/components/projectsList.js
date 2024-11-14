@@ -18,7 +18,6 @@ export const projectList = [
     image: "/images/crud.png",
     tech: "ReactJs, Typescript , JavaScript",
     githublink: "https://github.com/asgardev119/CrudWeb",
-    liveLink: "https://github.com/asgardev119/CrudWeb",
   },
 
   {
@@ -34,14 +33,14 @@ export const projectList = [
     image: "/images/color.png",
     tech: "HTML , CSS , JavaScript",
     githublink: "https://github.com/asgardev119/random-color-generator",
-    liveLink: "https://github.com/asgardev119/random-color-generator",
+    liveLink: "https://asgardev119.github.io/random-color-generator/",
   },
   {
     para: "Speech-Text Generator",
     image: "/images/speechtext.png",
     tech: "HTML , CSS , JavaScript",
     githublink: "https://github.com/asgardev119/speechTotext",
-    liveLink: "https://github.com/asgardev119/speechTotext",
+    liveLink: "https://asgarwebvoicetotext.netlify.app/",
   },
 
   {

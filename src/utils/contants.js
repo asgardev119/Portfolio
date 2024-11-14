@@ -1,4 +1,5 @@
 export const pageIds = {
+  
   home: "home",
   about: "about",
   projects: "projects",
