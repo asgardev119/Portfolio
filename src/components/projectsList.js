@@ -6,15 +6,32 @@ export const projectList = [
     githublink: "https://github.com/asgardev119/food-web",
     liveLink: "https://github.com/asgardev119/food-web",
   },
+
   {
-    para: "ansariAi",
+    para: "noteweb",
+    image: "/images/noteweb.png",
+    tech: "React Js , Tailwind css",
+    githublink: "https://github.com/asgardev119/notes-web",
+    liveLink: "https://notes-web-nu.vercel.app/",
+  },
+
+  {
+    para: "virtual-assistance",
+    image: "/images/robo.png",
+    tech: "Javascript , CSS ",
+    githublink: "https://github.com/asgardev119/Virtual-Assistance",
+    liveLink: "https://virtual-assistance-three.vercel.app/",
+  },
+
+  {
+    para: "chat AI",
     image: "/images/ansariai.png",
     tech: "React Js & tailwind css",
     githublink: "https://ansari-ai.vercel.app/",
     liveLink: "https://ansari-ai.vercel.app/",
   },
   {
-    para: "Crud-Web",
+    para: "crud-Web",
     image: "/images/crud.png",
     tech: "ReactJs, Typescript , JavaScript",
     githublink: "https://github.com/asgardev119/CrudWeb",
