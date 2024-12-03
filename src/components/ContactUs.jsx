@@ -8,10 +8,10 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    // "service_59xy8ct",
     emailjs
       .sendForm(
-        "service_59xy8ct",
+        "service_tvuruyp",
         "template_qn5xxdf",
         form.current,
         "fYsmEvcDI0grYVa_Z"
