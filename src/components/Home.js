@@ -39,7 +39,7 @@ export const Home = () => {
           </b>
         </p>
         <a
-          href="/pdf/AsgarAnsari.pdf"
+          href="/pdf/meResume.pdf"
           download="asgaransari-Resume"
           target="_blank"
           rel="noreferrer"
