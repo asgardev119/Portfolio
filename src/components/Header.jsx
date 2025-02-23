@@ -3,8 +3,7 @@ import "../styles/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
 import { navMenus } from "../utils/navMenus";
-import { isPathActive } from "../utils/util";
-import { Link, NavLink } from "react-router-dom";
+
 
 export const Header = () => {
   const [activePath, setActivePath] = useState(window.location.hash || "");

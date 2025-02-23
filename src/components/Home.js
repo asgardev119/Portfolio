@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/home.css";
 import { ParticlesBg } from ".";
 import Typewriter from "typewriter-effect";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { pageIds } from "../utils/contants";
 
 export const Home = () => {
@@ -18,9 +17,10 @@ export const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  "a ReactJs  Developer",
-                  "a Frontend Developer",
-                  "a Software Developer",
+                  "ReactJs  Developer",
+                  "Frontend Developer",
+                  "MERN Stack Developer",
+                  "Software Developer",
                 ],
                 autoStart: true,
                 loop: true,
@@ -39,7 +39,7 @@ export const Home = () => {
           </b>
         </p>
         <a
-          href="/pdf/meResume.pdf"
+          href="/pdf/AsgarAnsari-mern-developer.pdf"
           download="asgaransari-Resume"
           target="_blank"
           rel="noreferrer"

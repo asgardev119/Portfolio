@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import "../styles/skills.css";
 import { Progress } from "rsuite";
@@ -8,7 +8,7 @@ import { pageIds } from "../utils/contants";
 export const Skills = () => {
   const skillsData = [
     {
-      percent: 100,
+      percent: 90,
       status: "active",
       trailColor: "red",
       strokeColor: "yellow",
@@ -31,7 +31,7 @@ export const Skills = () => {
       name: "Javascript",
     },
     {
-      percent: 70,
+      percent: 50,
       status: "active",
       trailColor: "red",
       strokeColor: "yellow",
@@ -43,7 +43,14 @@ export const Skills = () => {
       status: "active",
       trailColor: "red",
       strokeColor: "yellow",
-      name: "React Js",
+      name: "ReactJs",
+    },
+    {
+      percent: 50,
+      status: "active",
+      trailColor: "red",
+      strokeColor: "yellow",
+      name: "Redux & Redux Toolkit",
     },
 
     {
@@ -90,6 +97,35 @@ export const Skills = () => {
       trailColor: "red",
       strokeColor: "yellow",
       name: "Git/Github",
+    },
+
+    {
+      percent: 60,
+      status: "active",
+      trailColor: "red",
+      strokeColor: "yellow",
+      name: "NodeJs",
+    },
+    {
+      percent: 60,
+      status: "active",
+      trailColor: "red",
+      strokeColor: "yellow",
+      name: "Express",
+    },
+    {
+      percent: 60,
+      status: "active",
+      trailColor: "red",
+      strokeColor: "yellow",
+      name: "MongoDB",
+    },
+    {
+      percent: 60,
+      status: "active",
+      trailColor: "red",
+      strokeColor: "yellow",
+      name: "SQL",
     },
   ];
 

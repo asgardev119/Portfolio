@@ -14,6 +14,27 @@ export const projectList = [
     githublink: "https://github.com/asgardev119/notes-web",
     liveLink: "https://notes-web-nu.vercel.app/",
   },
+  {
+    para: "multi-calculator",
+    image: "/images/multiple-cal.png",
+    tech: "Javascript",
+    githublink: "https://github.com/asgardev119/Multi-Calculator",
+    liveLink: "https://asgardev119.github.io/Multi-Calculator/",
+  },
+  {
+    para: "chat-bot",
+    image: "/images/chat-bot.png",
+    tech: "Javascript, qwen Api",
+    githublink: "https://github.com/asgardev119/Mybot",
+    liveLink: "https://mybot-opal.vercel.app/",
+  },
+  {
+    para: "hireworld job portal",
+    image: "/images/jobport.png",
+    tech: "Javascript",
+    githublink: "https://github.com/asgardev119/internshipTask-JOB_01",
+    liveLink: "https://hireworld.netlify.app/",
+  },
 
   {
     para: "virtual-assistance",
@@ -21,6 +42,13 @@ export const projectList = [
     tech: "Javascript , CSS ",
     githublink: "https://github.com/asgardev119/Virtual-Assistance",
     liveLink: "https://virtual-assistance-three.vercel.app/",
+  },
+  {
+    para: "railway pnr tracker",
+    image: "/images/pnr.png",
+    tech: "Javascript , api",
+    githublink: "https://github.com/asgardev119/checkpnr_railwaystatus",
+    liveLink: "https://asgardev119.github.io/checkpnr_railwaystatus/",
   },
 
   {
@@ -30,6 +58,7 @@ export const projectList = [
     githublink: "https://ansari-ai.vercel.app/",
     liveLink: "https://ansari-ai.vercel.app/",
   },
+
   {
     para: "crud-Web",
     image: "/images/crud.png",
@@ -116,12 +145,5 @@ export const projectList = [
     tech: "html css javascript",
     githublink: "https://github.com/asgaransari19/codeClause_TimerandStopwatch",
     liveLink: "https://timerandstopwatchas.netlify.app/",
-  },
-  {
-    para: "temperatureConverter",
-    image: "/images/sc10.png",
-    tech: "html css javascript",
-    githublink: "https://github.com/asgaransari19/OIBSIP_level1_task3",
-    liveLink: "https://tempconverterasgr.netlify.app/",
   },
 ];
