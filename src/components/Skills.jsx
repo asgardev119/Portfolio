@@ -10,54 +10,54 @@ export const Skills = () => {
     {
       percent: 90,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "HTML5",
     },
 
     {
       percent: 80,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "CSS3",
     },
 
     {
       percent: 80,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "Javascript",
     },
     {
       percent: 50,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "Typescript",
     },
 
     {
       percent: 80,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "ReactJs",
     },
     {
       percent: 50,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
-      name: "Redux & Redux Toolkit",
+      trailColor: "grey",
+      strokeColor: "white",
+      name: "greyux & greyux Toolkit",
     },
 
     {
       percent: 60,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "Core Java",
     },
 
@@ -65,66 +65,66 @@ export const Skills = () => {
     {
       percent: 70,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "C & C++",
     },
     {
       percent: 60,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "MSword",
     },
     {
       percent: 60,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "MySql",
     },
     {
       percent: 60,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "Data Structures & Algorithm",
     },
 
     {
       percent: 80,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "Git/Github",
     },
 
     {
       percent: 60,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "NodeJs",
     },
     {
       percent: 60,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "Express",
     },
     {
       percent: 60,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "MongoDB",
     },
     {
       percent: 60,
       status: "active",
-      trailColor: "red",
-      strokeColor: "yellow",
+      trailColor: "grey",
+      strokeColor: "white",
       name: "SQL",
     },
   ];
@@ -150,19 +150,7 @@ export const Skills = () => {
         })}
       </div>
 
-      <div className="barbox">
-        <p>frontend Abilities: &nbsp;&nbsp;</p>
-        <div className="bar">
-          <ProgressBar className="ProgressBar" now={80} label={`${"80"}%`} />
-        </div>
-      </div>
-      {/* 
-      <div className="barbox">
-        <p>BackEnd Skills: &nbsp;&nbsp;</p>
-        <div className="bar2">
-          <ProgressBar className="ProgressBar2" now={30} label={`${"30"}%`} />
-        </div>
-      </div> */}
+      
     </div>
   );
 };

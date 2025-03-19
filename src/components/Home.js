@@ -11,7 +11,7 @@ export const Home = () => {
       <div className="dev"></div>
       <div className="name">
         <h1 id="titleHead">
-          Hello Everyone, I'm
+          {/* Hello Everyone, I'm */}
           <span>
             {" "}
             <Typewriter
@@ -30,16 +30,14 @@ export const Home = () => {
         </h1>
         <p id="text">
           <b id="p">
-            {" "}
-            Frontend developer proficient in JavaScript, TypeScript, HTML, CSS,
-            Tailwind CSS, React Js, and Material-UI with additional skills in C,
-            C++, SQL, Data structures & Algorithm. Currently pursuing B.Tech in
-            Computer Science and Engineering, actively seeking opportunities in
-            frontend development.
+            Developed and maintained dynamic web applications using React.js,
+            building user-friendly interfaces and integrating with backend
+            services through Node.js, Express.js, and MongoDB to create
+            scalable, full- stack solutions.
           </b>
         </p>
         <a
-          href="/pdf/AsgarAnsari-mern-developer.pdf"
+          href="/pdf/AsgarAnsari-frontendDeveloper.pdf"
           download="asgaransari-Resume"
           target="_blank"
           rel="noreferrer"

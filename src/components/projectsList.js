@@ -1,14 +1,21 @@
 export const projectList = [
   {
-    para: "food",
+    para: "food web",
     image: "/images/food.png",
     tech: "React Js",
     githublink: "https://github.com/asgardev119/food-web",
     liveLink: "https://github.com/asgardev119/food-web",
   },
+  {
+    para: "mandi market web",
+    image: "/images/mandi.png",
+    tech: "React Js, Material UI",
+    githublink: "https://github.com/asgardev119/mandi",
+    liveLink: "https://mandimarket-mu.vercel.app/",
+  },
 
   {
-    para: "noteweb",
+    para: "note taking web",
     image: "/images/noteweb.png",
     tech: "React Js , Tailwind css",
     githublink: "https://github.com/asgardev119/notes-web",

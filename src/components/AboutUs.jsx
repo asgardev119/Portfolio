@@ -6,12 +6,9 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
-  FaTwitter,
-  FaWhatsapp,
-  FaYoutube,
+
 } from "react-icons/fa";
 import { pageIds } from "../utils/contants";
-import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export const Aboutus = () => {
   const handleClick = (url) => {
@@ -62,7 +59,6 @@ export const Aboutus = () => {
           })}
         </div>
       </div>
-      {/* <h2>Thanks for visit my profile....</h2> */}
     </div>
   );
 };

@@ -28,15 +28,13 @@
 .circles {
   height: auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 85%;
-  /* border: 2px solid red; */
+  width: 80%;
 }
 .circle {
-  height: 180px;
+  height: 160px;
   width: 160px;
-  /* border: 3px solid green; */
 }
 
 .circletext p {
@@ -60,50 +58,13 @@
 
 .barbox {
   background-color: black;
-  color: #fff;
+  color: black;
   height: 40px;
   width: 100%;
-  /* border: 2px solid red; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  align-items: center;
   justify-content: center;
-}
-
-.bar {
-  height: 20px;
-  width: 60%;
-  color: #fff;
-  background-color: red;
-  border-radius: 10px;
-}
-.bar2 {
-  height: 20px;
-  width: 60%;
-  color: #fff;
-  background-color: red;
-  border-radius: 10px;
-}
-
-.ProgressBar {
-  text-align: center;
-  height: 20px;
-  width: 90%;
-  color: black;
-  background-color: yellow;
-  border-radius: 10px;
-  font-family: "Lobster", cursive;
-}
-
-.ProgressBar2 {
-  text-align: center;
-  height: 20px;
-  width: 30%;
-  color: black;
-  background-color: yellow;
-  border-radius: 10px;
-  font-family: "Lobster", cursive;
 }
 
 @media (max-width: 769px) {
@@ -151,11 +112,4 @@
     height: 150px;
     width: 150px;
   }
-
-  .barbox .bar {
-    width: 90%;
-    border: 2px solid red;
-    height: auto;
-  }
- 
 }

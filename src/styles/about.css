@@ -2,14 +2,13 @@
   height: auto;
   width: 100%;
   position: relative;
-  /* border: 2px solid red; */
-  /* background-color: black; */
   margin: auto;
   align-items: center;
-  /* z-index: 1; */
   margin-bottom: 20px;
 }
-
+* {
+  color: #fff;
+}
 .about h1 {
   color: #fff;
   text-align: center;
@@ -20,29 +19,29 @@
 
 .imgbox {
   height: 300px;
-  width: 350px;
-  background-image: url("/public/images/me.png");
+  width: 380px;
+  background-image: url("/public/images/mepng.png");
   background-size: cover;
-  background-position: 0;
+  background-position: center;
   background-blend-mode: lighten;
-  filter: drop-shadow(0 0 0.75rem rgb(100, 100, 100));
-  border-bottom: 4px solid #fff;
+  filter: drop-shadow(0 0 0.75rem rgb(224, 215, 215));
+  border-bottom: 2px solid #fff;
   margin: auto;
+  object-fit: contain;
 }
 .textbox {
   height: auto;
-  width: 90%;
-  /* border: 2px solid red; */
+  width: 50%;
   margin: auto;
   margin-top: 10px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 .textbox p {
   text-align: center;
-  color: yellow;
 }
 .textbox p b {
   color: #fff;
@@ -54,37 +53,30 @@
   display: flex;
   justify-content: center;
   margin: 20px 0 20px 0;
-  /* border: 3px solid red; */
 }
 .textbox .btns button {
-  border-radius: 50%;
   height: 35px;
   width: 35px;
-  /* margin-left: 50px; */
-  border: 1px solid #fff;
+  border-radius: 50%;
   color: #fff;
-  filter: none;
   font-weight: bold;
   text-align: center;
-  box-shadow: 1px 1px 12px #fff;
   background-color: black;
   margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #fff;
+
 }
 .textbox button:hover {
-  box-shadow: 1px 1px 10px yellow;
-  border: 1px solid yellow;
+  box-shadow: 1px 1px 10px #fff;
 }
 
-.about h2 {
-  font-size: 18px;
-  color: yellowgreen;
-  text-align: center;
-}
 
 @media (max-width: 825px) {
   .about {
     height: auto;
-    /* margin-top: 350px; */
   }
   .btns {
     width: 80%;
@@ -102,6 +94,9 @@
     height: 30px;
     width: 30px;
   }
+  .textbox {
+    width: 90%;
+  }
 
   .btns {
     width: 100%;
@@ -111,7 +106,8 @@
     width: 250px;
   }
 
-  .textbox p b {
-    font-size: 14px;
+  .textbox p{
+    font-size: 12px;
+    text-align: start;
   }
 }

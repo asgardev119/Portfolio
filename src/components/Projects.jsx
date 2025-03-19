@@ -31,7 +31,7 @@ export const Projects = () => {
         {projectList.map((obj) => {
           return (
             <div className="projectsBox">
-              <img src={obj.image} />
+              <img src={obj.image} alt=""/>
 
               <div className="buttons">
                 <div>

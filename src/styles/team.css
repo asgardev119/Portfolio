@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* background-color: black; */
+
 }
 ul {
   position: "none";
@@ -25,9 +25,6 @@ ul {
   margin-top: 50px;
 }
 
-.settings {
-  /* border: 2px solid green; */
-}
 
 .slick-dots {
   color: #fff;
@@ -40,7 +37,7 @@ ul {
 .slick-active {
   position: unset;
   display: none;
-  /* background-color:green; */
+
 }
 
 .container h1 {
