@@ -14,12 +14,27 @@ export const projectList = [
     liveLink: "https://mandimarket-mu.vercel.app/",
   },
 
+    {
+    para: "Task Management App",
+    image: "/images/task-manage-app.png",
+    tech: "React Js, Material UI",
+    githublink: "https://github.com/asgardev119/task-managment-system",
+    liveLink: "https://task-managment-system-eta.vercel.app/",
+  },
+
   {
     para: "note taking web",
     image: "/images/noteweb.png",
     tech: "React Js , Tailwind css",
     githublink: "https://github.com/asgardev119/notes-web",
     liveLink: "https://notes-web-nu.vercel.app/",
+  },
+  {
+    para: "Recipe web",
+    image: "/images/rec-app.png",
+    tech: "HTML5 , CSS3 ,Javascript",
+    githublink: "https://github.com/asgardev119/recipe-app",
+    liveLink: "https://asgar-recipe-app.netlify.app/",
   },
   {
     para: "multi-calculator",

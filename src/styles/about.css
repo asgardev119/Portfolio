@@ -31,7 +31,8 @@
 }
 .textbox {
   height: auto;
-  width: 50%;
+  width: 60%;
+  max-width: 90%;
   margin: auto;
   margin-top: 10px;
   margin: auto;
